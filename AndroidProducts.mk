@@ -21,3 +21,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/rr_on7xelte.mk \
     $(LOCAL_DIR)/viper_on7xelte.mk \
     $(LOCAL_DIR)/bootleg_on7xelte.mk \
+    $(LOCAL_DIR)/stag_on7xelte.mk \
