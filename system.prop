@@ -69,3 +69,7 @@ debug.hwc.force_gpu=1
 
 # ro.product.first_api_level indicates the first api level the device has commercially launched on.
 ro.product.first_api_level=23
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.havoc.maintainer=Douglas Gomes
