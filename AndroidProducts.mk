@@ -21,3 +21,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/viper_on7xelte.mk \
     $(LOCAL_DIR)/bootleg_on7xelte.mk \
     $(LOCAL_DIR)/legion_on7xelte.mk \
+    $(LOCAL_DIR)/lean_on7xelte.mk \
+    $(LOCAL_DIR)/colt_on7xelte.mk \

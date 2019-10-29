@@ -21,8 +21,10 @@ $(call inherit-product, device/samsung/on7xelte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common RR stuff
-TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, vendor/rr/config/common_full_phone.mk)
+
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier
 PRODUCT_NAME := rr_on7xelte
