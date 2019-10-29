@@ -24,8 +24,18 @@ dalvik.vm.heapmaxfree=8m
 #force HAL1 for below packages
 vendor.camera.hal1.packagelist=com.skype.raider,com.google.android.talk,com.whatsapp
 
-#HAL3
-persist.vendor.camera.HAL3.enabled=1
+#
+# system property determining camera HAL to be used for a Video call
+#
+# 1 is camera1
+# 2 or anything else is camera2
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.radio.VT_CAM_INTERFACE=2
+
+#Enable HAL3
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.HAL3.enabled=1 \
+ vendor.camera.hal1.packagelist=com.whatsapp,com.facebook.katana,com.instagram.android,com.snapchat.android
 
 # Performance and battery
 wifi.supplicant_scan_interval=300
