@@ -21,7 +21,7 @@ $(call inherit-product, device/samsung/on7xelte/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lean stuff
-$(call inherit-product, vendor/lineage/config/common.mk)
+$(call inherit-product, vendor/lean/config/common.mk)
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
