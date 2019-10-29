@@ -37,6 +37,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.HAL3.enabled=1 \
  vendor.camera.hal1.packagelist=com.whatsapp,com.facebook.katana,com.instagram.android,com.snapchat.android
 
+#system property determining camera to be used for a Video call
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.qti.telephony.vt_cam_interface=1
+    
 # Performance and battery
 wifi.supplicant_scan_interval=300
 persist.sys.purgeable_assets=1
