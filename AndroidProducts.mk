@@ -23,3 +23,9 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/legion_on7xelte.mk \
     $(LOCAL_DIR)/lean_on7xelte.mk \
     $(LOCAL_DIR)/colt_on7xelte.mk \
+    $(LOCAL_DIR)/havoc_on7xelte.mk \
+
+COMMON_LUNCH_CHOICES := \
+    havoc_on7xelte-user \
+    havoc_on7xelte-userdebug \
+    havoc_on7xelte-eng
