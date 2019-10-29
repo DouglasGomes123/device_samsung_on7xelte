@@ -1,4 +1,4 @@
-for rom in rr dot lineage aosp cos viper bootleg havoc carbon potato
+for rom in rr dot lineage aosp viper bootleg havoc legion
 do
   for variant in user userdebug eng
   do
