@@ -40,7 +40,7 @@ lib/libsynaFpSensorTestNwd.so
 # GPS
 bin/gpsd
 etc/ca.pem
-lib/hw/gps.default.so:lib/hw/gps.vendor.universal7870.so
+lib/hw/gps.default.so
 lib/libfloatingfeature.so
 lib/libwrappergps.so
 vendor/lib/hw/flp.default.so
