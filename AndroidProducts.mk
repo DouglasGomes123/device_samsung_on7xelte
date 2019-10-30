@@ -13,8 +13,17 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := \   
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/aosp_on7xelte.mk \
+    $(LOCAL_DIR)/dot_on7xelte.mk \
+    $(LOCAL_DIR)/lineage_on7xelte.mk \
+    $(LOCAL_DIR)/rr_on7xelte.mk \
+    $(LOCAL_DIR)/viper_on7xelte.mk \
+    $(LOCAL_DIR)/bootleg_on7xelte.mk \
+    $(LOCAL_DIR)/legion_on7xelte.mk \
+    $(LOCAL_DIR)/lean_on7xelte.mk \
     $(LOCAL_DIR)/havoc_on7xelte.mk \
+
 COMMON_LUNCH_CHOICES := \
     havoc_on7xelte-user \
     havoc_on7xelte-userdebug \
