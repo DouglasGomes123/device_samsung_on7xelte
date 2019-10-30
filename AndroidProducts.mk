@@ -15,7 +15,6 @@
 
 PRODUCT_MAKEFILES := \   
     $(LOCAL_DIR)/havoc_on7xelte.mk \
-
 COMMON_LUNCH_CHOICES := \
     havoc_on7xelte-user \
     havoc_on7xelte-userdebug \
